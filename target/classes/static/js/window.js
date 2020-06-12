@@ -147,7 +147,7 @@
             '                </span>\n' +
             '            </div>\n' +
             '            <div class="modal_header-item_1WbOm modal_header-item-title_1N2BE">\n' +
-            '快速查词'+
+            '竞技对战'+
             '            </div>\n' +
             '            <div class="modal_header-item_1WbOm modal_header-item-close_4akWi">\n' +
             '                <div id="cameraCloseId" class="close-button_close-button_t5jqt close-button_large_2cCrv">\n' +

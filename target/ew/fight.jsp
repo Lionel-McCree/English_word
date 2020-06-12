@@ -78,17 +78,10 @@
       });  
     </script>
     <script type="text/javascript">
-    function compileStr(code){ //对字符串进行加密       
-    	  var c=String.fromCharCode(code.charCodeAt(0)+code.length);
-    	 for(var i=1;i<code.length;i++)
-    	  {      
-    	   c+=String.fromCharCode(code.charCodeAt(i)+code.charCodeAt(i-1));
-    	 }   
-    	 return escape(c);   }
       function goto_fight(){
       var temp = '<%=(Integer)session.getAttribute("id")%>';
       var id =temp+"";
-      alertM("http://47.113.116.227:23569/game.html?id="+compileStr(id));
+      alertM("http://47.113.116.227:23569/game.html?id="+id);
       
       }
     </script>
